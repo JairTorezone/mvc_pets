@@ -1,4 +1,8 @@
 {
   "python.linting.enabled": true, // Habilita o linting de forma geral para Python
-  "python.linting.pylintEnabled": true // Habilita especificamente o Pylint
+  "python.linting.pylintEnabled": true, // Habilita especificamente o Pylint,
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.pytest_cache": true
+  }
 }
