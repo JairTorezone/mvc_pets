@@ -33,3 +33,4 @@ def test_create_error():
 
     with pytest.raises(Exception):
         controller.create(person_infor)
+    
